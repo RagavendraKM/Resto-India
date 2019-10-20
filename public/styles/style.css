@@ -30,6 +30,13 @@ li {
     display: block;
   }
   
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
   #sticky-footer {
     flex-shrink: none;
   }
