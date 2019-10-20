@@ -72,6 +72,23 @@ img {
 }
 
 
+.send-mail {
+background-color: #444;
+    border: 2px solid #444;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 6px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
 
   .dropdown-menu a:hover {background-color: #404040; color: white; }
   
@@ -79,3 +96,9 @@ img {
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
+  button:hover {
+    cursor: text;
+    background: none;
+    border: 2px solid #444;
+    color: #444;
+}
